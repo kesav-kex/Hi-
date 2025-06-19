@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>I Miss You, Dyuthy Chechi 💖</title>
+  <style>
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(0.95); }
+      to { opacity: 1; transform: scale(1); }
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom right, #ffeef8, #fddde6),
+                  url('https://www.transparenttextures.com/patterns/clouds.png');
+      background-repeat: repeat;
+      color: #333;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    .container {
+      background: #fffdfd;
+      padding: 40px;
+      border-radius: 25px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+      max-width: 650px;
+      animation: fadeIn 2s ease-in;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: #d63384;
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin: 15px 0;
+      line-height: 1.6;
+    }
+
+    .quote {
+      font-style: italic;
+      color: #666;
+      margin-top: 30px;
+    }
+
+    .emoji {
+      font-size: 2rem;
+      margin-top: 25px;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 25px;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🥺 I Miss You, Dyuthy Chechi 💖</h1>
+
+    <p>💭 Not a day goes by without thinking of you.</p>
+    <p>👭 Your love, your laughter, your care — I feel them in my heart always.</p>
+    <p>🌸 You are more than a sister — you are my forever friend.</p>
+
+    <div class="quote">
+      “Sisters are different flowers from the same garden.” 🌷🌺🌻
+    </div>
+
+    <div class="quote">
+      “Distance means so little when someone means so much.” 💌
+    </div>
+
+    <div class="emoji">💖🌈👧📸🕊️✨</div>
+  </div>
+
+  <!-- Optional background music -->
+  <audio autoplay loop>
+    <source src="your-music.mp3" type="audio/mpeg">
+    <!-- If audio doesn't play, show message -->
+    Your browser does not support the audio element.
+  </audio>
+</body>
+</html>
